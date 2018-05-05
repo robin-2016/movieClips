@@ -1,16 +1,19 @@
 <!--index.wxml-->
-<view class="container">
+<view>
   <view>
     <swiper indicator-dots="{{indicator}}" autoplay="{{autoplay}}">
-      <block wx:for="{{images}}">
+      <block wx:for="{{swiperimages}}">
         <swiper-item>
-          <image src="{{item}}" class="slide-image" width="355" height="150"></image>
+          <image class='img' src="{{item.url}}"></image>
+          <!-- <view class='bimg'></view> -->
         </swiper-item>
       </block>
     </swiper>
   </view>
-  <view>
-  <image src="{{image01}}"></image>
-  <image src="{{image02}}"></image>
+  <view class='list'>
+    <view wx:for="{{images}}">
+       <view><text class='text'>{{item.text}}</text></view> 
+      <image class='listimage' src="{{item.url}}"></image>
+    </view>
   </view>
 </view>

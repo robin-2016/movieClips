@@ -6,14 +6,18 @@ Page({
   data: {
     indicator: true,
     autoplay: true,
-    images: [
-      "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/01.png"
+    swiperimages: [
+      { text: "《肖申克的救赎》片段", url: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/xsk.jpg" },
+      { text: "《当幸福来敲门》片段", url: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/dxflqm.jpg" }
     ],
-    image01: "",
-    image02: ""
+    images: [
+      { text: "《急速追杀》片段", url: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/jszs.jpg" },
+      { text: "《琅琊榜》片段", url: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/lyb.png" },
+      { text: "《杀手莱昂》片段", url: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/ssla.png" }
+    ]
   },
   //事件处理函数
-  bindViewTap: function() {
+  bindViewTap: function () {
     wx.navigateTo({
       url: '../video/video'
     })
