@@ -1,0 +1,5 @@
+<view>
+  <view class='video'>
+    <video controls src="https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/%E7%96%BE%E9%80%9F%E8%BF%BD%E6%9D%80BD%E4%B8%AD%E8%8B%B1%E5%8F%8C%E5%AD%97_0001.mp4"></video>
+  </view>
+</view>
