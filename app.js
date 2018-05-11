@@ -34,6 +34,8 @@ App({
   //   })
   // },
   globalData: {
-    videourl: null
+    text: null,
+    videourl: null,
+    descript: null
   }
 })

@@ -1,25 +1,6 @@
 /**index.wxss**/
 
-.list {
-  border-top-style: dashed;
-  border-width: 1px;
-  margin-top: 15px;
-  /* text-align: center; */
-  /* display: flex;
-flex-direction: column; */
-}
-.listfor{
-  display: flex;
-  flex-direction: column;
-  margin: 0px 0px 0px 0px;
-  
-}
-.listext{
-  width: 375px;
-  margin: 0px 0px 0px 0px;
-}
-.listimage {
-  width: 375px;
+.img {
+  width: 100%;
   height: 150px;
-  margin: 0px 0px 0px 0px;
 }

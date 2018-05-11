@@ -1,9 +1,9 @@
 /**app.wxss**/
-/* page{
+ page{
   height: 100%;
-  background-color: black;
-} */
-.container {
+  background-color: gainsboro;
+} 
+/* .container {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -11,13 +11,21 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-}
-
-.img {
-  width: 375px;
-  height: 150px;
-}
+} */
 
 .text {
   font-size: 12px;
+}
+.div{
+  /* display: flex;
+  flex-direction: column; */
+  /* margin: 0px 0px 0px 0px; */
+  width: 100%;
+  background-color: white;
+  margin-top: 12px;  
+}
+.divtext{
+  width: 100%;
+  /* margin: 0px 0px 0px 0px; */
+  text-align: center;
 }

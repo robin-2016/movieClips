@@ -4,16 +4,20 @@
     <swiper indicator-dots="{{indicator}}" autoplay="{{autoplay}}">
       <block wx:for="{{swiperimages}}">
         <swiper-item>
-          <image class='img' src="{{item.url}}" bindtap='bindViewTap'></image>
+          <image class='img' id="{{item.id}}" src="{{item.url}}" bindtap='bindImage' mode='scaletoFill'></image>
           <!-- <view class='bimg'></view> -->
         </swiper-item>
       </block>
     </swiper>
   </view>
-  <view class='list'>
-    <view class='listfor' wx:for="{{images}}">
-       <view class='listext'><text class='text'>{{item.text}}</text></view> 
-      <view><image class='listimage' src="{{item.url}}"></image></view>
+  <view>
+    <view class='div' wx:for="{{images}}">
+      <view class='divtext'>
+        <text class='text'>{{item.text}}</text>
+      </view>
+      <view>
+        <image class='img' id="{{item.id}}" src="{{item.url}}" bindtap='bindImage' mode='scaletoFill'></image>
+      </view>
     </view>
   </view>
 </view>

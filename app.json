@@ -1,13 +1,12 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/video/video",
-    "pages/logs/logs"
+    "pages/video/video"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "精彩片段",
+    "navigationBarTitleText": "Movie片段",
     "navigationBarTextStyle":"black"
   }
 }

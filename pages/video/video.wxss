@@ -1,4 +1,10 @@
 .video{
   margin-top: 5px;
   text-align: center;
+  width: 100%;  
+}
+.script{
+  margin: 8px 2px 0px 8px;
+  line-height: 22px;
+  text-indent: 2em;
 }
