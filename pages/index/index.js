@@ -24,7 +24,7 @@ Page({
       },
       {
         id: "ssla", text: "《杀手莱昂》片段", url: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/ssla01.png",
-        videourl: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/Leon%20The%20Professional%20ssla_0001.mkv", descript: "时间过去了好久，再回头看《杀手莱昂》的剪辑很有特点，非常巧妙的展示了莱昂高超的杀手技巧。"
+        videourl: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/Leon%20The%20Professional.mp4", descript: "时间过去了好久，再回头看《杀手莱昂》的剪辑很有特点，非常巧妙的展示了莱昂高超的杀手技巧。"
       }
     ]
   },
