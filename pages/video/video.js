@@ -15,6 +15,9 @@ Page({
    */
   onLoad: function () {
     var appdata = app.globalData
+    wx.setNavigationBarTitle({
+      title: appdata.vtext,
+    })
     this.setData({
       vtext: appdata.vtext,
       videourl: appdata.videourl,
