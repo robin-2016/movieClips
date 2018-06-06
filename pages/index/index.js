@@ -7,7 +7,7 @@ Page({
     indicator: true,
     autoplay: true,
     swiperimages: [
-      { id: "xskdjs", text: "《肖申克的救赎》片段", url: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/xsk.jpg", videourl: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/%E8%82%96%E7%94%B3%E5%85%8B%E7%9A%84%E6%95%91%E8%B5%8E_0001.mp4",descript:"安迪在狱中备受折磨，在这次户外工作中第一次展示了自己的价值，开始了改变自己在狱中的境地……" },
+      { id: "xskdjs", text: "《肖申克的救赎》片段", url: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/xsk.jpg", videourl: "http://1255927624.vod2.myqcloud.com/87a9bad2vodtransgzp1255927624/64f8f6777447398156429803279/v.f20.mp4",descript:"安迪在狱中备受折磨，在这次户外工作中第一次展示了自己的价值，开始了改变自己在狱中的境地……" },
       {
         id: "dxflqm", text: "《当幸福来敲门》片段", url: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/dxflqm.jpg",
         videourl: "https://vide-test-1255927624.cos.ap-beijing.myqcloud.com/%E5%BD%93%E5%B9%B8%E7%A6%8F%E6%9D%A5%E6%95%B2%E9%97%A8_0001.mp4", descript: "克里斯·加德纳生活非常的糟糕，妻子不再相信自己，要离开，一方面自己独立抚养儿子，另一方面为了面试股票经纪人而努力着……"
